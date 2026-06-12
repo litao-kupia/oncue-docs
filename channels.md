@@ -16,12 +16,19 @@ Context (including each person's **job title**) is pulled in automatically, so a
 
 Contacts are tracked by a stable account id, not display name — renames never split a person in two, and two people sharing a name stay separate. Telegram profile photos appear on your [relationship graph](relationships.md#the-relationship-graph).
 
+## Discord
+
+1. Console → **Channels**, connect Discord — one click, read from the desktop app on this device (nothing to paste).
+2. Add a Discord DM as a session source, or paste a `discord.com/channels/…` message link to pull that conversation in.
+
+OnCue reads Discord *as you*, locally, for context only — it never sends anything on its own. Contacts are keyed on a stable user id. Note: automated access uses your Discord user token, which is against Discord's terms — use at your discretion.
+
 ## What OnCue reads
 
 Only the threads and chats you explicitly follow for a session — never your whole workspace. When you first follow a thread, recent history is used quietly to brief you (and seed memory), but is never dumped into the live transcript. OnCue respects each service's rate limits and backs off under heavy use.
 
 ## One person, every channel
 
-The same person across Slack, Telegram, and voice calls collapses into a **single record** and graph node, even with minor name differences. Their facts, commitments, and dossier merge rather than fragment.
+The same person across Slack, Telegram, Discord, and voice calls collapses into a **single record** and graph node, even with minor name differences. Their facts, commitments, and dossier merge rather than fragment. When someone uses a different name on different channels, link them by hand with the 🔗 action in the People list.
 
-> Slack and Telegram are available today. Calendar-based meeting suggestions are covered under [Sessions](sessions.md).
+> Slack, Telegram, and Discord are available today. Calendar-based meeting suggestions are covered under [Sessions](sessions.md).
