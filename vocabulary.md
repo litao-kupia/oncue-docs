@@ -1,7 +1,8 @@
 # Custom vocabulary
 
-Transcription sometimes mishears names, products, or jargon — "cygent" comes out as
-"sygient." **Custom vocabulary** teaches OnCue your terms so transcripts read correctly.
+Transcription sometimes mishears names, products, or jargon — a product name comes out
+spelled wrong, or a person's name is garbled. **Custom vocabulary** teaches OnCue your
+terms so transcripts read correctly.
 
 ## Add a mapping
 

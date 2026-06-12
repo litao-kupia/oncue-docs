@@ -40,4 +40,5 @@ what makes every reply better than the last.
 
 * [Getting started](getting-started.md) — install, sign in, and run your first session.
 * [Relationships & memory](relationships.md) — how OnCue learns and uses your people.
+* [Commitments & briefs](commitments.md) — what's owed, and the right context before every call.
 * [Plans & usage](plans.md) — what's included and how billing works.

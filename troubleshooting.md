@@ -17,6 +17,12 @@ OnCue captures **system audio** (what's playing on your machine). Make sure call
 playing through your computer (not a disconnected headset), and that **System audio** is
 enabled as a session source.
 
+## Audio dropped mid-call
+
+If your mic or system audio drops — an unplugged headset, a default-device switch, or a
+transient glitch — OnCue now re-opens it automatically with backoff instead of going silent
+until you restart. The audio warning clears once capture recovers.
+
 ## Advice or replies stopped appearing
 
 * Check your [usage](plans.md) — on the Free plan, AI features pause when you hit your token
@@ -25,7 +31,8 @@ enabled as a session source.
 
 ## The update didn't install
 
-OnCue auto-updates on launch. If an update can't apply, download the latest installer
+OnCue auto-updates on launch and re-checks periodically while running, so a long session
+still picks up a new release. If an update can't apply, download the latest installer
 manually from [oncue.fun/download](https://oncue.fun/download) and run it once.
 
 ## Still stuck?
