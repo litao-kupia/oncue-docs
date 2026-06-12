@@ -1,91 +1,51 @@
 # Relationships & memory
 
-OnCue's core is a **living memory of the people you work with**. It builds and updates
-this automatically as you talk — no manual data entry — and uses it to make every
-suggestion more personal and more useful over time. This is what compounds: the more you
-use OnCue, the more it knows, and the better every reply and brief gets.
+OnCue's core is a living memory of the people you work with, built and updated automatically as you talk — no data entry. The more you use it, the more it knows, and the better every reply and brief gets.
 
 ## People & dossiers
 
-Anyone who appears in your conversations (live calls, Slack, Telegram) becomes a **person**
-in OnCue. Each person accumulates a structured **dossier**:
+Anyone in your conversations (calls, Slack, Telegram) becomes a **person** with a structured **dossier**:
 
-* **Role** — what they do / their title (pulled from channel profiles too).
+* **Role** — title / what they do (pulled from channel profiles too).
 * **Style** — how they communicate.
-* **Temper** — their temperament and emotional tenor.
+* **Temper** — temperament and emotional tenor.
 * **Characteristics** — notable traits.
-* **Relationship** — your dynamic with them, read especially from your direct messages.
-* **Company** — the organization they belong to, extracted from conversations.
-* **Facts** — durable, concrete details (projects, preferences, history…).
+* **Relationship** — your dynamic, read especially from your DMs.
+* **Company** — extracted from conversations.
+* **Facts** — durable details (projects, preferences, history).
 
-Open the **People** tab in the dashboard and click anyone to see their dossier. The list
-**groups people by company** so colleagues cluster together. System accounts (Slackbot,
-deactivated users, etc.) are filtered out automatically.
+Open the **People** tab and click anyone for their dossier. The list **groups by company**; system accounts (Slackbot, deactivated users) are filtered out.
 
-### Relationship strength
-
-Every person carries a live health read — **Strong**, **Steady**, **Cooling**, or
-**At risk** — shown as a coloured dot in the People list and a badge on their detail card.
-It's computed from how recently you've been in contact and whether you owe them anything
-overdue, so at a glance you can see which relationships are warming and which are slipping.
-
-### What changed
-
-When OnCue re-reads someone, it records a one-line **"what's new or different since last
-time"** — a shift in role or mood, an emerging issue, a new development — and surfaces it at
-the top of their detail card, so you walk in already knowing what moved.
+* **Relationship strength** — a live health read (**Strong**, **Steady**, **Cooling**, **At risk**) from contact recency and whether you owe them anything overdue. Shown as a coloured dot in the list and a badge on the card.
+* **What changed** — when OnCue re-reads someone, it records a one-line "what's new since last time" (a shift in role or mood, an emerging issue) at the top of their card.
 
 ## The relationship graph
 
-The **Graph** tab (the default People view) shows **you at the center** of your network,
-with everyone you talk to around you — using their Slack and Telegram avatars (initials as a
-fallback). Connections between *other* people are inferred from recent conversations and
-**colour-coded by sentiment** (e.g. a recent disagreement shows in red with a short label).
-Each person's ring is **tinted by their company**, with a named legend, so organizations are
-visible at a glance.
+The **Graph** tab (default People view) puts **you at the center**, everyone around you with their Slack/Telegram avatars (initials as fallback). Connections between *other* people are inferred from recent conversations and **colour-coded by sentiment** (a recent disagreement shows red with a label). Each ring is **tinted by company**, with a named legend.
 
-* **Hover** a node to highlight its ties and show the name (names hide by default; nodes
-  gently float).
+* **Hover** a node to highlight ties and show its name (names hide by default).
 * **Click** a person for their dossier; **click a connection** to see what it's about.
-* **Zoom** with the floating controls at the bottom-right, or **Ctrl + scroll**.
-* **Save as image** or **Share** the graph — avatars are embedded so the export isn't blank.
+* **Zoom** with the bottom-right controls or **Ctrl + scroll**.
+* **Save as image** or **Share** — avatars are embedded so the export isn't blank.
 
-The graph rebuilds from recent activity automatically (and on demand with **Refresh**).
+Rebuilds from recent activity automatically, or on demand with **Refresh**.
 
 ## Identity across channels
 
-The same person reached on Slack, Telegram, and in voice calls collapses into **one record
-and one graph node**, even with minor spelling, accent, or punctuation differences in their
-name. Merges are conservative — two records only fold together when there's corroborating
-signal (a shared handle, the same company, or one being an empty stub) — so two different
-people who share a name stay separate. When records do merge, their identities, facts,
-commitments, and dossier are combined, never blanked.
+The same person across Slack, Telegram, and voice calls collapses into **one record and one graph node**, even with minor spelling/accent/punctuation differences. Merges are conservative — only with corroborating signal (shared handle, same company, or an empty stub) — so two people sharing a name stay separate. Merged records combine identities, facts, commitments, and dossier; nothing is blanked.
 
-## Reckon — refresh on demand (and automatically)
+## Reckon — refresh on demand
 
-OnCue **auto-reckons** in the background after you've talked to someone — a few people per
-cycle, newest activity first — so relationship memory stays current without you doing
-anything.
+OnCue **auto-reckons** in the background after you talk to someone (a few people per cycle, newest first), keeping memory current automatically.
 
-You can also refresh on demand: click **✦ Reckon** on a person (or **✦ Reckon all**) to
-rebuild their dossier from their latest messages — including your DMs, which it weighs
-heavily for the relationship read. Reckoning **merges** with what's already known: new
-information is preferred, but existing details are never thrown away.
-
-## Commitments, briefs & nudges
-
-Commitments you make and receive, pre-call and daily briefs, post-call follow-ups, and
-proactive nudges all run off this memory. They have their own page:
-[Commitments & briefs](commitments.md).
+You can also click **✦ Reckon** on a person (or **✦ Reckon all**) to rebuild their dossier from latest messages — including DMs, weighed heavily for the relationship read. Reckoning **merges**: new info is preferred, existing details are never discarded.
 
 ## Knowledge sources
 
-Relationship memory works alongside your **knowledge base** — material OnCue reads to ground
-replies. Add notes, files, folders, and PDFs in the **Knowledge** tab. You can also **paste a
-link** (e.g. a company or team page): OnCue reads the page and folds it into your knowledge
-base. Knowledge can be scoped per session, or used across all of them by default.
+Memory works alongside your **knowledge base**. Add notes, files, folders, and PDFs in the **Knowledge** tab, or **paste a link** (e.g. a team page) for OnCue to read and fold in. Knowledge can be scoped per session or used across all by default.
 
 ## Where it lives
 
-It all stays **on your device**, synced to your own dashboard — never shared. Signing out
-wipes the local data.
+On your device, synced to your own dashboard, never shared. Signing out wipes the local data.
+
+Commitments, briefs, and nudges all run off this memory — see [Commitments & briefs](commitments.md).

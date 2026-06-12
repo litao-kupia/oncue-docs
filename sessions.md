@@ -1,54 +1,32 @@
 # Sessions
 
-A **session** is an isolated working context for one conversation. Each session has its own
-guideline, knowledge, input sources, and transcript — and produces a **summary + action
-items** when it ends.
+A **session** is an isolated working context for one conversation, with its own guideline, knowledge, sources, and transcript — and a **summary + action items** when it ends.
 
-There's always an always-on **General** session for ad-hoc use; create named sessions for
-anything you want kept separate. Both feed relationship memory and commitments — so profiles
-and promises populate during normal use, not only after you end a named session. The General
-session is periodically summarized into a rolling digest in the background so it never grows
-without bound.
+An always-on **General** session handles ad-hoc use; create named sessions for anything you want kept separate. Both feed relationship memory and commitments during normal use, not only on end. General is periodically summarized into a rolling digest so it never grows without bound.
 
 ## Starting a session
 
-When you start a session you can set:
-
-* **Name** — how it appears in your history.
-* **Guideline** — a short instruction that shapes the advice (e.g. *"Be concise and
-  technical."*).
-* **Knowledge** — notes, files, or folders OnCue should read to ground its suggestions.
-* **Sources** — where input comes from (see below).
+* **Name** — how it appears in history.
+* **Guideline** — a short instruction shaping advice (e.g. *"Be concise and technical."*).
+* **Knowledge** — notes, files, or folders to ground suggestions.
+* **Sources** — where input comes from (below).
 
 ## Input sources
 
-* **Your voice** — your microphone (labeled "you").
-* **System audio** — whatever is playing on your machine, i.e. the other side of the call.
-  Speakers are separated automatically.
-* **Channels** — follow a specific Slack thread or Telegram chat so its messages flow into
-  the session. See [Connecting channels](channels.md).
+* **Your voice** — your mic (labeled "you").
+* **System audio** — the other side of the call; speakers separated automatically.
+* **Channels** — a Slack thread or Telegram chat. See [Connecting channels](channels.md).
 
-Your voice + system audio are enabled by default. You can combine multiple sources. In the
-input panel, a **FOLLOW** toggle auto-scrolls to the newest line (on by default) — turn it
-off to read back without being yanked to the bottom.
+Voice + system audio are on by default; combine multiple sources. The input panel's **FOLLOW** toggle auto-scrolls to the newest line (on by default) — turn it off to read back.
 
 ## Attachments
 
-Attach **files and folders** when starting a session — including **PDFs** — and OnCue will
-read them as background knowledge for more grounded replies.
+Attach **files and folders** (including **PDFs**) when starting a session; OnCue reads them as background knowledge.
 
-## Briefs from the session menu
+## Briefs
 
-Before a meeting, OnCue suggests starting a session from your calendar, with a **Brief me**
-button for a [pre-call brief](commitments.md#pre-call-brief). The overlay session menu also
-has **✦ Pre-call brief** and a **☀ Daily brief** any time.
+Before a meeting, OnCue suggests starting a session from your calendar with a **Brief me** button for a [pre-call brief](commitments.md#pre-call-brief). The overlay session menu also has **✦ Pre-call brief** and **☀ Daily brief**.
 
-## Resuming
+## Resuming & ending
 
-Already-ended sessions can be **resumed**: reopen one to keep adding to the same context and
-transcript instead of starting fresh.
-
-## Ending
-
-Ending a session generates a concise **summary** and a list of **action items**, saved to
-your history and viewable in the [web dashboard](https://oncue.fun/dashboard).
+**Resume** an ended session to keep adding to the same context and transcript. **Ending** generates a summary and action items, saved to history and viewable in the [dashboard](https://oncue.fun/dashboard).
